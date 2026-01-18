@@ -1,0 +1,70 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #000000;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Sección Perfil (Cabecera) */
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.foto-monigote {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    margin-right: 78px;
+}
+
+.cuadro-descripcion {
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+}
+
+/* Secciones de texto */
+section {
+    padding: 40px;
+    border-top: 1px solid #ccc;
+}
+
+/* Sección de Redes */
+footer {
+    padding: 30px;
+    background-color: #eee;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.circulo {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
